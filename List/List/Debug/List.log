@@ -1,0 +1,22 @@
+﻿Build started 11/2/2015 4:24:28 PM.
+     1>Project "c:\Users\work\documents\visual studio 2010\Projects\List\List\List.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\List.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\work\documents\visual studio 2010\projects\list\list\queue.h(91): error C2143: syntax error : missing ';' before 'return'
+                 c:\users\work\documents\visual studio 2010\projects\list\list\queue.h(93) : see reference to class template instantiation 'Queue<T>' being compiled
+     1>c:\users\work\documents\visual studio 2010\projects\list\list\queue.h(91): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\work\documents\visual studio 2010\projects\list\list\queue.h(91): error C2143: syntax error : missing ';' before 'return'
+                 c:\users\work\documents\visual studio 2010\projects\list\list\main.cpp(6) : see reference to class template instantiation 'Queue<T>' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\work\documents\visual studio 2010\projects\list\list\queue.h(91): error C2238: unexpected token(s) preceding ';'
+     1>Done Building Project "c:\Users\work\documents\visual studio 2010\Projects\List\List\List.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.42
